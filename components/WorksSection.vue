@@ -25,9 +25,11 @@
 </template>
 
 <script setup>
+import homeStockImg from '~/assets/img/HomeStock.png'
+
 const works = [
   {
-    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCGTqsyUBqyXXzplQEH8UfXDRfjeDGEg82jmyckD9PvnCcDGwHCOtJVwrjL-20XWopCGQoNeLFiM0vuolAyeGDjBlpa1ikZlMGk7Fe9qLKHgi4rRYPaAuqsTv5dhhJz750gnowecPFc4XKgMN4RgmIwtkjskQGnuQblcRP41Z3IrXamwIDwEBQQnCuJoynKvj04l5aaQKfzHpRYLSVPOsNr5PJH2zmwyMwYbWqvrS4BMr7PRwmwSYCqjCJqbyI2sh3G2Unr2BXleLg1',
+    imageUrl: homeStockImg,
     altKey: 'works.items[0].alt',
     tagKey: 'works.items[0].tag',
     titleKey: 'works.items[0].title',

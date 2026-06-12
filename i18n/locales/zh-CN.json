@@ -31,9 +31,9 @@
     "viewArchive": "查看归档",
     "items": [
       {
-        "tag": "MONOLITH",
-        "title": "空间身份",
-        "alt": "极简建筑"
+        "tag": "FULL-STACK",
+        "title": "家库",
+        "alt": "家庭库存管理平台"
       },
       {
         "tag": "TEMPORALIS",
