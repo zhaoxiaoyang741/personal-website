@@ -26,6 +26,8 @@
 
 <script setup>
 import homeStockImg from '~/assets/img/HomeStock.png'
+import heritagePlatformImg from '~/assets/img/HeritagePlatform.png'
+import minimalCommerceImg from '~/assets/img/MinimalCommerce.png'
 
 const works = [
   {
@@ -36,14 +38,14 @@ const works = [
     delay: '200',
   },
   {
-    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuB3EobmJYpPowlnj4PwHpJLH6wqQM5tIbGTu7KwGFWVgN5njOVvwIDW0oEwDpu7YJCuoCbzlzyDRAUf_k7nEcE09ROyteW6txe1CGWD_M8ApQhLvGmizcset4mNQnSHZdvWei9BiA2zOMTcD4ez1YGIHoO6Kg4-EGOdDDawHqRCC6PjrWd9jCTRO2jit_553sbprGA4g27b528wSW-UM8NF5czZPnmqFLm2itIMZeiyZ-E2zAb_m2kGe-G1_re66NNwriPLd6XqYGJb',
+    imageUrl: heritagePlatformImg,
     altKey: 'works.items[1].alt',
     tagKey: 'works.items[1].tag',
     titleKey: 'works.items[1].title',
     delay: '300',
   },
   {
-    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBxJnxD6Z8PXAzft2rnNrGsLFCYGYvly98T6o9fY_ZaAJYOED2luqidxcOUvt0aLnxt10iC8W4jvcgmEJ50CXNO-XSSKvJai_YF0ghGYjg4s7V-6guH-lI5CEcp6382oHAxv9PesNRDVabtDGj1O0xnexwfzyXIgE1IC-pgWjLl01U_ceMi7PORKNvA8iGKIijmufxlDZNB-etM1XitKJggCtvFgO1snZdrHVaY3KxE2E1tw6zTNgfbyOAKe-lDh01Q8j_Te3YZg4QN',
+    imageUrl: minimalCommerceImg,
     altKey: 'works.items[2].alt',
     tagKey: 'works.items[2].tag',
     titleKey: 'works.items[2].title',
