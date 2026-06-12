@@ -1,0 +1,140 @@
+/* Material Symbols (variable axes) — loaded via @import to avoid google-fonts module stripping axes */
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+body {
+  cursor: none;
+  overflow-x: hidden;
+  background-color: #fbf9f3;
+}
+
+/* Scroll Container */
+#scroll-container {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+#scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Y-Axis Depth Section Styles */
+.depth-section {
+  height: 100vh;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fbf9f3;
+  transition: transform 1.2s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 1.2s ease;
+  transform-origin: center center;
+  z-index: 1;
+}
+
+/* Reveal Logic for Depth */
+.depth-section.exiting {
+  transform: scale(0.9) translatey(-20px);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.depth-section.entering {
+  transform: scale(1.1);
+  opacity: 0;
+}
+
+.depth-section.active {
+  transform: scale(1) translatey(0);
+  opacity: 1;
+  z-index: 10;
+}
+
+/* Grain Overlay */
+.grain-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9998;
+  opacity: 0.04;
+  background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuCU9rN8Moz-20AxdvV5Z1MeC3BZNvk8jnDMALR-vlsMtcQc60CHhYHnJmS1mv0bQENDJEJqmaVd6sor5QxF-WbKmFR_Wf4_m9rJkx1zS3mL-NAnuHZvc_p3OTuu96Z0RBgsNTBJNQC8Rhi1lYpizddOPsJJNwmIRLsAU989fybGcchY9dLnP4F-SR2AJzQat2XWXSMVKTraBJyDi2AYtR8D0lVz_ztoix9adEP_ynhn3p0oYoHbysWIsuGXbnmcWXJBwgG7a5Wm46e6);
+  mix-blend-mode: multiply;
+}
+
+/* Custom Cursor */
+#custom-cursor {
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.2s cubic-bezier(0.23, 1, 0.32, 1),
+    opacity 0.5s ease, width 0.4s cubic-bezier(0.23, 1, 0.32, 1),
+    height 0.4s cubic-bezier(0.23, 1, 0.32, 1),
+    background-color 0.4s, mix-blend-mode 0.4s;
+  transform: translate(-50%, -50%);
+  left: -100px;
+  top: -100px;
+}
+
+.cursor-hero {
+  mix-blend-mode: difference;
+  background-color: white !important;
+  opacity: 1 !important;
+  width: 200px !important;
+  height: 200px !important;
+}
+
+.cursor-default {
+  mix-blend-mode: normal;
+  background-color: rgba(0, 0, 0, 0.15) !important;
+  opacity: 1 !important;
+  width: 12px !important;
+  height: 12px !important;
+}
+
+/* Interactive Elements */
+.service-card {
+  transform-style: preserve-3d;
+  transition: transform 0.15s ease-out, box-shadow 0.4s ease;
+  will-change: transform, box-shadow;
+}
+
+.reveal-item {
+  opacity: 0;
+  transform: translatey(20px);
+  transition: transform 1.2s cubic-bezier(0.2, 0.8, 0.2, 1),
+    opacity 1s ease-out;
+}
+
+.active .reveal-item {
+  opacity: 1;
+  transform: translatey(0);
+}
+
+html,
+body,
+a,
+button,
+[role="button"] {
+  cursor: none !important;
+}

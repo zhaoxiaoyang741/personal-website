@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "brand": "ZXY",
+    "essays": "随笔",
+    "archive": "归档",
+    "works": "作品",
+    "about": "关于"
+  },
+  "hero": {
+    "title": "寂静的艺术",
+    "subtitle": "视觉叙事与设计策略，为那些重视内涵而非喧嚣的人而作。探索极简美学与建筑设计逻辑的深度交融。"
+  },
+  "services": {
+    "label": "服务领域",
+    "title": "以精准的手术级策略进行干预。",
+    "strategy": {
+      "title": "策略",
+      "description": "通过深度研究，定义叙事弧线与结构基础。"
+    },
+    "design": {
+      "title": "设计",
+      "description": "轻言细语的视觉语言，却留下持久的印象。"
+    },
+    "engineering": {
+      "title": "工程",
+      "description": "无缝、无形的交互体验，以性能为优先考量。"
+    }
+  },
+  "works": {
+    "title": "精选作品",
+    "viewArchive": "查看归档",
+    "items": [
+      {
+        "tag": "MONOLITH",
+        "title": "空间身份",
+        "alt": "极简建筑"
+      },
+      {
+        "tag": "TEMPORALIS",
+        "title": "传承平台",
+        "alt": "奢华物件"
+      },
+      {
+        "tag": "TACTILE VOID",
+        "title": "极简商业",
+        "alt": "抽象设计"
+      }
+    ]
+  },
+  "footer": {
+    "brand": "ZXY",
+    "tagline": "思考设计、哲学与技术的交汇点。",
+    "connect": "社交",
+    "legal": "法律",
+    "copyright": "© 2024 ZXY. 保留所有权利。",
+    "icp": "京ICP备XXXXXXXX号",
+    "social": {
+      "twitter": "Twitter",
+      "arena": "Are.na",
+      "readcv": "Read.cv"
+    }
+  }
+}

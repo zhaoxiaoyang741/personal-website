@@ -1,0 +1,34 @@
+# ── Dependencies ──
+node_modules/
+.pnp
+.pnp.js
+
+# ── Build outputs ──
+dist/
+.nuxt/
+.output/
+
+# ── Environment files ──
+.env
+.env.local
+.env.*.local
+
+# ── IDE / Editor ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+
+# ── OS files ──
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ── Logs ──
+*.log
+npm-debug.log*
+
+# ── Misc generated ──
+*.tsbuildinfo

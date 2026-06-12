@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "brand": "ZXY",
+    "essays": "Essays",
+    "archive": "Archive",
+    "works": "Works",
+    "about": "About"
+  },
+  "hero": {
+    "title": "THE ART OF SILENCE",
+    "subtitle": "Visual Storytelling & Design Strategy for those who value substance over noise. An exploration into minimalist aesthetics and architectural design logic."
+  },
+  "services": {
+    "label": "Our Focus",
+    "title": "Strategic interventions crafted with surgical precision.",
+    "strategy": {
+      "title": "Strategy",
+      "description": "Defining the narrative arc and structural foundation through deep research."
+    },
+    "design": {
+      "title": "Design",
+      "description": "Visual languages that speak softly but leave a permanent impression."
+    },
+    "engineering": {
+      "title": "Engineering",
+      "description": "Seamless, invisible interactions that prioritize performance."
+    }
+  },
+  "works": {
+    "title": "Selected Works",
+    "viewArchive": "View Archive",
+    "items": [
+      {
+        "tag": "MONOLITH",
+        "title": "Spatial Identity",
+        "alt": "Minimalist Architecture"
+      },
+      {
+        "tag": "TEMPORALIS",
+        "title": "Heritage Platform",
+        "alt": "Luxury Object"
+      },
+      {
+        "tag": "TACTILE VOID",
+        "title": "Minimal Commerce",
+        "alt": "Abstract Design"
+      }
+    ]
+  },
+  "footer": {
+    "brand": "ZXY",
+    "tagline": "Thinking about the intersection of design, philosophy, and technology.",
+    "connect": "CONNECT",
+    "legal": "LEGAL",
+    "copyright": "© 2024 ZXY. ALL RIGHTS RESERVED.",
+    "icp": "京ICP备XXXXXXXX号",
+    "social": {
+      "twitter": "Twitter",
+      "arena": "Are.na",
+      "readcv": "Read.cv"
+    }
+  }
+}
