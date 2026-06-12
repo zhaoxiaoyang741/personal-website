@@ -24,19 +24,19 @@
 <script setup>
 const services = [
   {
-    icon: 'architecture',
+    icon: 'code',
     titleKey: 'services.strategy.title',
     descKey: 'services.strategy.description',
     variant: 'default',
   },
   {
-    icon: 'animation',
+    icon: 'engineering',
     titleKey: 'services.design.title',
     descKey: 'services.design.description',
     variant: 'primary',
   },
   {
-    icon: 'code',
+    icon: 'self_improvement',
     titleKey: 'services.engineering.title',
     descKey: 'services.engineering.description',
     variant: 'default',

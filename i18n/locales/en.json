@@ -11,19 +11,19 @@
     "subtitle": "Visual Storytelling & Design Strategy for those who value substance over noise. An exploration into minimalist aesthetics and architectural design logic."
   },
   "services": {
-    "label": "Our Focus",
-    "title": "Strategic interventions crafted with surgical precision.",
+    "label": "What I Do",
+    "title": "Full-stack craft across the entire development lifecycle.",
     "strategy": {
-      "title": "Strategy",
-      "description": "Defining the narrative arc and structural foundation through deep research."
+      "title": "Technical",
+      "description": "Full-stack development with Go backend and Vue/React frontend. Architecting, building, and deploying production-grade applications across the entire lifecycle."
     },
     "design": {
-      "title": "Design",
-      "description": "Visual languages that speak softly but leave a permanent impression."
+      "title": "Engineering",
+      "description": "From system architecture to deployment pipelines — designing and delivering robust, performant solutions. Turning requirements into reliable systems."
     },
     "engineering": {
-      "title": "Engineering",
-      "description": "Seamless, invisible interactions that prioritize performance."
+      "title": "Growth & Balance",
+      "description": "知行合一 (unity of knowledge and action). Embracing continuous learning, maintaining balance, and building technology that serves people."
     }
   },
   "works": {
