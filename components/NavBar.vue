@@ -63,6 +63,10 @@ function handleClick(id) {
 }
 
 async function switchLocale(code) {
+  // Save current scroll section before locale switch (route changes reset scroll)
+  if (import.meta.client) {
+    sessionStorage.setItem('locale-switch-section', String(currentSection.value))
+  }
   if (setLocale) {
     await setLocale(code)
   } else {

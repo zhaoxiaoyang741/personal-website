@@ -6,15 +6,15 @@
         <div class="font-body-md text-body-md text-secondary max-w-sm">
             {{ $t('footer.tagline') }}
           </div>
-        <p class="font-label-caps text-[10px] tracking-widest text-outline">{{ $t('footer.icp') }}</p>
+        <p class="font-body-md text-body-md text-secondary">
+          <a href="mailto:contact@zhaoxiaoyang.com" class="hover:text-primary transition-colors">contact@zhaoxiaoyang.com</a>
+        </p>
       </div>
       <div class="flex flex-wrap gap-x-20 gap-y-8">
         <div class="flex flex-col gap-4">
           <span class="font-label-caps text-label-caps text-primary">{{ $t('footer.connect') }}</span>
           <div class="flex flex-col gap-2">
-            <a class="font-body-md text-body-md text-secondary hover:text-primary transition-colors" href="#">{{ $t('footer.social.twitter') }}</a>
-            <a class="font-body-md text-body-md text-secondary hover:text-primary transition-colors" href="#">{{ $t('footer.social.arena') }}</a>
-            <a class="font-body-md text-body-md text-secondary hover:text-primary transition-colors" href="#">{{ $t('footer.social.readcv') }}</a>
+            <a class="font-body-md text-body-md text-secondary hover:text-primary transition-colors" href="https://github.com/zhaoxiaoyang741" target="_blank" rel="noopener noreferrer">{{ $t('footer.social.github') }}</a>
           </div>
         </div>
         <div class="flex flex-col gap-4">

@@ -31,7 +31,22 @@ export function useSectionScroll() {
     if (!scrollContainer || !sections.length) return
 
     totalSections = sections.length
-    currentSection.value = Math.round(scrollContainer.scrollTop / scrollContainer.clientHeight)
+
+    // Restore scroll position after locale switch
+    const savedSection = sessionStorage.getItem('locale-switch-section')
+    if (savedSection !== null) {
+      sessionStorage.removeItem('locale-switch-section')
+      const sectionIndex = parseInt(savedSection, 10)
+      if (sectionIndex >= 0 && sectionIndex < totalSections) {
+        currentSection.value = sectionIndex
+        scrollContainer.scrollTop = sectionIndex * scrollContainer.clientHeight
+      }
+    } else {
+      currentSection.value = Math.round(scrollContainer.scrollTop / scrollContainer.clientHeight)
+    }
+
+    // Force sync depth transitions
+    onScroll()
 
     // Wheel capture
     scrollContainer.addEventListener('wheel', onWheel, { passive: false })

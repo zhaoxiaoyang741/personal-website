@@ -67,13 +67,13 @@ Two locales in `i18n/locales/`: `en.json` and `zh-CN.json`. Strategy is `prefix_
 
 ### Commit Convention
 
-Use Conventional Commits format. Always use multiple `-m` flags — **never** use PowerShell here-string (`@'...'@`) syntax:
+Use Conventional Commits format. Commit messages **must be in English**. Use multiple `-m` flags — **never** use PowerShell here-string (`@'...'@`) syntax:
 
 ```powershell
 git add .
-git commit -m "feat: add dark mode support" -m "- 暗色主题配色方案
-- localStorage 持久化偏好设置
-- 跟随系统主题自动切换"
+git commit -m "feat: add dark mode support" -m "- Dark theme color scheme
+- localStorage persistence preference
+- Auto-switch with system theme"
 ```
 
 Examples:

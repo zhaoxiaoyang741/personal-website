@@ -53,11 +53,8 @@
     "connect": "CONNECT",
     "legal": "LEGAL",
     "copyright": "© 2024 ZXY. ALL RIGHTS RESERVED.",
-    "icp": "京ICP备XXXXXXXX号",
     "social": {
-      "twitter": "Twitter",
-      "arena": "Are.na",
-      "readcv": "Read.cv"
+      "github": "GitHub"
     }
   }
 }
